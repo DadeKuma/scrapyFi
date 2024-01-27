@@ -8,6 +8,13 @@
                                 ||      .. |                   
                                ''''      ''                                                                                                
 ```
+---
+## Fork Changes
+- Added an all-in-one script to download everything with a single command, needs only `pip` and `virtualenv`
+- First setup only: `chmod +x scrap.sh`
+- **Scrap everything** with: `./scrap.sh <project-name>`
+---
+
 Scraper for Immunefi. It will help you to perform below task:
 1. List all the projects from immunefi with basic details in tabular form.
 2. Query particular project with its project name and list basic details alongs with all smart contract links. It will also let you download all those contracts.
